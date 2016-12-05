@@ -6,6 +6,7 @@
 
 body{
     overflow-x: hidden;
+    font-size: 1.5em;
 }
 
 .navbar-default{
@@ -76,6 +77,10 @@ h1{
     .black{
         color: black;
     }
+    
+    .grey{
+        color: #d3d3d3;
+    }
 
     .darkRed{
         color: #7A2423;
@@ -124,8 +129,13 @@ h1{
  
  /* ----- DIV STYLING ----- */
  
+ .project_header{
+     height: 400px;
+     min-width: 450px;
+ }
+ 
  .grey_border{
-     border:thin solid #d3d3d3;
+    border:thin solid #d3d3d3;
  }
  
  .bottomBordered{
