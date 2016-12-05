@@ -5,6 +5,7 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( horizontalScroll.js )
 Rails.application.config.assets.precompile += %w( hideMenu.js )
 Rails.application.config.assets.precompile += %w( buttonUpdater.js )
+Rails.application.config.assets.precompile += %w( smoothScroll.js )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
