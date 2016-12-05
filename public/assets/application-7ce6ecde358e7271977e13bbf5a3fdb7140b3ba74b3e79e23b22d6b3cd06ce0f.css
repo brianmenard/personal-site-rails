@@ -1,0 +1,373 @@
+
+/* ----- OVERRIDES AND CUSTOMIZATIONS----- */
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar-default{
+    border-bottom: thin solid #E94847;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h2{
+      font-family: 'Raleway', sans-serif;
+      color: #E94847;
+      line-height: 200%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      font-size: 2em;
+      text-align: center;
+  }
+  
+  h3{
+      font-family: 'Raleway', sans-serif;
+  }
+  
+ a{
+     text-decoration: none;
+     color: grey;
+ }
+ 
+  a:hover{
+     text-decoration: none;
+     color: grey;
+ }
+ 
+ a:active{
+     text-decoration: none;
+     color: grey;
+ }
+ 
+ a:clicked{
+     text-decoration: none;
+     color: grey;
+ }
+ 
+  .navbar-custom{
+      background-color: white;
+  }
+  
+  /* ----- END OVERRIDES AND CUSTOMIZATIONS ----- */
+  
+  /* ----- FONT STYLES ----- */
+  
+  .subtext{
+      font-family: 'Lato', sans-serif;
+      font-size: .75em;
+      color: grey;
+  }
+  
+  .handwritten{
+      font-family: 'Shadows Into Light', cursive;
+      color: #E94847;
+  }
+  
+  .white{
+    color:#F8F7F3;
+    }
+
+    .black{
+        color: black;
+    }
+
+    .darkRed{
+        color: #7A2423;
+    }
+    
+    .red{
+        color: #E94847;
+    }
+    
+    .center{
+    text-align: center;
+    }
+    
+    .webAnimation{
+        font-size: 1.25em;
+    }
+    
+    .designAnimation{
+        font-size: 1.25em;
+    }
+  
+  /* ----- END FONT STYLES ----- */
+  
+  /* ----- POSITIONING ----- */
+  
+
+.centerBlock {
+                display: table;
+                margin: 0 auto;
+            }
+            
+.vCenter { 
+    display: flex; 
+    align-items: center; 
+}
+
+.alignTop{
+    vertical-align:top;
+}
+
+.rightAlign{
+    float: right;
+}
+
+ /* ----- END POSITIONING ----- */
+ 
+ /* ----- DIV STYLING ----- */
+ 
+ .grey_border{
+     border:thin solid #d3d3d3;
+ }
+ 
+ .bottomBordered{
+    border-bottom: thin solid #D4D4D4;
+}
+
+.tall{
+    height: 600px;
+}
+
+.medium-height{
+    height:250px;
+}
+
+.footer{
+    background-color: #E94847;
+    width: 100%;
+}
+
+
+.greyPattern{
+    background: transparent url(../img/cubes.png);
+    background-attachment: fixed;
+     
+}
+
+.redPattern{
+    background: transparent url(../img/cubes-red.png);
+    background-attachment: fixed;
+}
+
+.picBanner{
+    background-image: url(../img/brian-fade-small.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.long-row{
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.scroll-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+.wrapText{
+    white-space: normal;
+}
+
+.rightBorder{
+    border-right: thin solid #D4D4D4;
+}
+
+.leftBorder{
+    border-left: thin solid #D4D4D4;
+}
+
+.animate{
+    width: 103%;
+}
+ 
+ /* ----- END DIV STYLING ----- */
+ 
+ /* ----- PADDING ----- */
+ 
+.padTop{
+    padding-top: 2%;
+}
+
+.padBottom{
+    padding-bottom: 2%;
+}
+
+.padLeft{
+    padding-left: 2%;
+}
+
+.padRight{
+    padding-right: 2%;
+}
+.padLeft-5{
+    padding-left: 5%;
+
+}
+ 
+ /* ----- END PADDING ----- */
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.resize{
+    max-width: 32px;
+}
+
+.resize-40{
+    max-width: 70%;
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size is 24px*/
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-150 { font-size: 150px; }
+
+/* RESPONSIVE DESIGN FOR PORTFOLIO (NON BOOTSTRAP SECTION)*/
+
+/*
+@media only screen and (min-width:2100px){
+    .animate{height: 1500px; width:2100px;}
+}
+
+@media only screen and (min-width:1700px) and (max-width:2100px){
+    .animate{height: 1500px; width:1700px;}
+}
+*/
+/*
+@media only screen and (min-width:1600px) and (max-width:1700px){
+    .animate{height: 1250px;}
+}
+
+@media only screen and (min-width:1500px) and (max-width:1600px){
+    .animate{height: 1150px;}
+}
+
+@media only screen and (min-width:1300px) and (max-width:1400px){
+    .animate{height: 1000px;}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1300px){
+    .animate{height: 950px;}
+}
+
+@media only screen and (min-width:1100px) and (max-width:1200px){
+    .animate{height: 850px;}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1100px){
+    .animate{height: 800px;}
+}
+
+@media only screen and (min-width:900px) and (max-width:1000px){
+    .animate{height: 800px;}
+}
+
+@media only screen and (min-width:860px) and (max-width:900px){
+    .animate{height: 750px;}
+}
+
+@media only screen and (min-width:800px) and (max-width:860px){
+    .animate{height: 825px;}
+}
+
+@media only screen and (min-width:767px) and (max-width:800px){
+    .animate{height: 850px;}
+}
+
+@media only screen and (min-width:660px) and (max-width:767px){
+    .animate{height: 2000px;}
+}
+
+@media only screen and (min-width:600px) and (max-width:660px){
+    .animate{height: 2100px;}
+}
+
+@media only screen and (min-width:550px) and (max-width:600px){
+    .animate{height: 2000px;}
+}
+
+@media only screen and (min-width:500px) and (max-width:550px){
+    .animate{height: 1900px;}
+}
+
+@media only screen and (min-width:480px) and (max-width:500px){
+    .animate{height: 1800px;}
+}
+
+@media only screen and (min-width:460px) and (max-width:480px){
+    .animate{height: 1700px;}
+}
+
+@media only screen and (max-width:460px){
+    .animate{height: 1500px;}
+}
+*/
+/*Responsive Contact Section*/
+
+@media only screen and (max-width:990px){
+    .contact{height: 275px;}
+    .portfolioItem{padding-bottom: 3%; padding-top: 3%;}
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

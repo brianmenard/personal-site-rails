@@ -10,7 +10,6 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <link href='../css/main.css' rel='stylesheet'>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
@@ -47,13 +46,13 @@
       <!-- end collapse to button -->
         <div class='collapse navbar-collapse' id='myNavbar'>
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="menuLink">Home</a></li>
-            <li><a href="#skills" class="menuLink">Skills</a></li>
-            <li><a href="#portfolio" class="menuLink">Portfolio</a></li>
+            <li><%= link_to('Home', root_path(anchor: 'home')) %></li>
+            <li><%= link_to('Skills', root_path(anchor: 'skills')) %></li>
+            <li><%= link_to('Portfolio', root_path(anchor: 'portfolio')) %></li>
             <!-- <li><a href="#blog">Blog</a></li> -->
             <!-- <li><a href="#about">About</a></li> -->
-            <li><a href="#contact" class="menuLink ">Contact</a></li>
-            <li><a href="#contact" class="menuLink visible-xs">Contact & Social</a></li>
+            <li><%= link_to('Contact', root_path(anchor: 'contact'), class:"hidden-xs") %></li>
+            <li><%= link_to('Contact & Social', root_path(anchor: 'home'), class:"menuLink visible-xs") %></li>
             <!-- IF ANY MORE LINKS ARE ADDED, ADD THEM TO SMOOTHSCROLL -->
           </ul>
           <ul class='nav navbar-nav navbar-right hidden-xs'>
@@ -91,10 +90,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/smoothScroll.js"></script>
-    <script src='../js/horizontalScroll.js'></script>
-    <script src="../js/hideMenu.js"></script>
-    <script src="../js/buttonUpdater.js"></script>
+    <%= javascript_include_tag('smoothscroll.js') %>
+    <%= javascript_include_tag('horizontalScroll.js') %>
+    <%= javascript_include_tag('hideMenu.js') %>
+    <%= javascript_include_tag('buttonUpdater.js') %>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <!-- <script src='js/resizePortfolio.js'></script> -->
     <!-- Featherlight Lightbox -->
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
