@@ -9,4 +9,13 @@ class ApplicationController < ActionController::Base
   def rumblr
   end
   
+  def menard_team
+  end
+  
+  def the_exchange
+  end
+  
+  def dujour
+  end
+  
 end

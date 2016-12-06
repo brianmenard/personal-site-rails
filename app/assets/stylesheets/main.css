@@ -101,6 +101,15 @@ h1{
     .designAnimation{
         font-size: 1.25em;
     }
+    
+    .material-icons.project_nav{
+        color: #d3d3d3;
+        font-size: 50px;
+    }
+    
+    .flip{
+        transform: rotate(180deg);
+    }
   
   /* ----- END FONT STYLES ----- */
   
@@ -136,6 +145,10 @@ h1{
  .project_header{
      height: 400px;
      min-width: 450px;
+ }
+ 
+ .long_screenshot{
+     height:1200px;
  }
  
  .grey_border{
@@ -205,6 +218,10 @@ h1{
 
 .animate{
     width: 103%;
+}
+
+.feature_image{
+    padding: 10px;
 }
  
  /* ----- END DIV STYLING ----- */

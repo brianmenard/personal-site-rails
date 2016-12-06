@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   root 'application#index'
   
   get '/projects/rumblr.html', to: 'application#rumblr'
+  get '/projects/menard_team.html', to: 'application#menard_team'
+  get '/projects/the_exchange.html', to: 'application#the_exchange'
+  get '/projects/dujour.html', to: 'application#dujour'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
